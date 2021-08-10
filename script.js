@@ -31,7 +31,7 @@ guessbtn.addEventListener('click',function(){
     let youGuessValue = document.createElement('h1');
     youGuess.appendChild(youGuessValue).innerHTML = guessNumber.value;
 
-    if(youGuess.children.length >= 5){
+    if(youGuess.children.length > 5){
         guessNumber.style.display = 'none';
         guessbtn.style.display = 'none';
         result.style.display = 'block';
