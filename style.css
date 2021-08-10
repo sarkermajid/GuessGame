@@ -1,0 +1,30 @@
+body{
+    background-image: url('./pexels-pixabay-326311.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.main{
+    margin-top: 200px;
+}
+
+.guess {
+    margin-top: 200px;
+    display: none;
+}
+.result {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #2ecc71;
+    color: black;
+    display: none;
+}
+#youGuess h1 {
+    background-color: black;
+    color: yellow;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 8px;
+}
